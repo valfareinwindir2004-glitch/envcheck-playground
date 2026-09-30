@@ -1,0 +1,12 @@
+{
+  "name": "envcheck-playground",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny app for trying the deployhealth GitHub App on pull requests.",
+  "scripts": {
+    "start": "node src/index.js",
+    "scan": "npx --yes deployhealth-scan@0.1.0 --dry-run"
+  },
+  "engines": { "node": ">=20" }
+}
